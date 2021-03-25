@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin  = require('css-minimizer-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const TerserPlugin = reuie('terser-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports= {
     entry: './src/index.js', //Entrada del archivo principal

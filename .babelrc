@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env", // PErite compilar todo en js
+        "@babel/preset-react" // Ayuda con la sitaxis de react
+    ]
+}
